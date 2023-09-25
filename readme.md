@@ -1,4 +1,4 @@
-1) Functionalities:
+# 1) Functionalities:
 	
 	a) Products can be viewed by /products/ route
 	b) Orders can be placed using /newOrder/ route. You need to provide product name & quantity inorder to book the products
@@ -6,7 +6,7 @@
 	   /orders/{order_id}
 	d) /products/update/{product_id} route is defined to update the product properties for a particular product. It calls update_product method, this method is called by /newOrder/ route also to update the stock left for the product while placing the order.
 
-2) How to run:
+# 2) How to run:
 	a) Run db_insert.py & new values will be pushed to products collection of cosmocloud db, each time 10 new products gets created, atleast id is different.
 	b) Make sure you have mongo installation done. Open terminal write mongo it will login to the mongo instance. In order to check collection data in database follow below steps:
 		- use <name of the  database (cosmocloud in our case)>
